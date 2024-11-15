@@ -1,0 +1,34 @@
+.nums button{
+    font-size:1.5rem;
+    margin-bottom: .5rem;
+    border-radius: 20%;
+    border:3px solid rgba(99, 89, 89, 0.555);
+    background-color: grey;
+    color:white;
+}
+.nums button:hover{
+    background-color: rgba(0, 0, 0, 0.623);
+}
+input{
+    max-width:20rem ;
+    height:4rem;
+    border-radius:1rem;
+}
+.x{
+    border-bottom:none;
+}
+p{
+    display:none;
+}
+.z{
+    background-color:rgb(138, 138, 138);
+    color:white;
+    display:block;
+
+}
+.nums{
+    margin-top: 2rem;
+}
+.functions{
+    display:inline;
+}
