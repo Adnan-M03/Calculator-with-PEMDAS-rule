@@ -6,7 +6,6 @@ This project is a calculator that follows the PEMDAS rule (Parentheses, Exponent
 ## Features
 - **PEMDAS Compliance**: Ensures calculations are performed in the correct order.
 - **Basic Arithmetic**: Supports addition, subtraction, multiplication, and division.
-- **Parentheses Handling**: Correctly evaluates expressions within parentheses.
 - **User-Friendly Interface**: Easy to use with clear input and output.
 
 ## Current Status
