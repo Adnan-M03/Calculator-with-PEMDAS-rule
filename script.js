@@ -23,11 +23,16 @@ function neg(num){
     num = Number(num);
     return -1 * num;
 }
+function addEvent(but){
+    but.addEventListener('click', ()=>{
+        rinput.value += but.textContent;
+        input.value += Number(but.textContent);
+        rinput.classList.add('rep');})
+}
 
+btn.forEach(addEvent)
 
-
-
-btn.forEach((but) =>{
+/*btn.forEach((but) =>{
         but.addEventListener('click', ()=>{
         rinput.value += but.textContent;
         input.value += Number(but.textContent);
@@ -35,7 +40,7 @@ btn.forEach((but) =>{
 
 
     })
-});
+});*/
 
 
 
